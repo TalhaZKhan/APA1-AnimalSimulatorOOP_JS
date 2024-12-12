@@ -9,7 +9,7 @@ export class Mammal extends Animal {
   }
 
   getPregnant() {
-    return "ohh yeahh"
+    return "ohh yeahh, i will now be pregnant for " + this.#pregnPeriod 
   }
 
 }
