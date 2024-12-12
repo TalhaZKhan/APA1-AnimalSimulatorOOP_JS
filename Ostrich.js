@@ -16,4 +16,7 @@ export class Ostrich extends Bird {
   swim() {
     return "Great job genius, Im Drowning!!";
   }
+  run(){
+    return 'ZoooooOOOOooOOOoOOOOOOOOOMMMMM'
+  }
 }
