@@ -4,9 +4,9 @@ export class Jaguar extends Mammal {
 
     #roarvolume
 
-  constructor(weight,roarVolume) {
-    super(weight);
-    this.#roarvolume = roarVolume
+  constructor(weight,roarVolume,pregnPeriod) {
+    super(weight,pregnPeriod);
+    this.#roarvolume = roarVolume;
   }
 
   roar() {
