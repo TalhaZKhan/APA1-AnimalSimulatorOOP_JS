@@ -9,6 +9,10 @@ export class Animal {
     return this.#weight;
   }
 
+  set weight(weight) {
+    this.#weight = weight;
+  }
+
   display() {}
 
   feed() {}
