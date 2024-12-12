@@ -8,6 +8,8 @@ export class Mammal extends Animal {
     this.#pregnPeriod = pregnPeriod;
   }
 
-  getPregnant() {}
+  getPregnant() {
+    return "ohh yeahh"
+  }
 
 }
